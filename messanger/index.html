@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>facebook_messanger</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link href='https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans' rel='stylesheet'>
+</head>
+
+<body>
+<div class="messenger-frame">
+    <header class="messenger-frame__header">
+        <section class="messenger-frame__name-active">
+            <section class="messenger-frame__mark-active"></section>
+            <span class="messenger-frame__person-name">Kristaps Elsins</span>
+        </section>
+        <section class="messenger-header__buttons">
+            <div class="format-buttons">
+                <a href="#">
+                    <img src="pics/Plus.svg">
+                </a>
+                <a href="#">
+                    <img id="video-img" src="pics/Video.svg">
+                </a>
+                <a href="#">
+                    <img src="pics/Cog.svg">
+                </a>
+
+                <a href="#">
+                    <img src="pics/Close.svg">
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <main class="message-box">
+        <section class="message-box__message-fromme message-box__message-tome">
+            <img src="pics/avatar.jpg" class="messanger__frame__avatar">
+            <section class="message-frame__content--tome">
+                <p class="message__text">Yo, Can you update views?</p>
+            </section>
+        </section>
+        <section class="message-box__time-delimiter">FRI 11:30AM
+            <time datetime="2018-01-19 11:30"></time>
+        </section>
+        <section class="message-box__message-fromme message-box__message-tome">
+            <img src="pics/avatar.jpg" class="messanger__frame__avatar">
+            <section class="message-frame__content--tome">
+                <p class="message__text">I can't see updated views yet</p>
+            </section>
+        </section>
+
+
+        <section class="message-box__space-between-messages">
+            <section class="message-frame message-frame--fromme">
+                <section class="message__frame__content--fromme message__frame__content--fromme-first">
+                    <p class="message__text">Hi, as i noted in Email last week -i'm on vacation.</p>
+                </section>
+            </section>
+
+            <section class="message-frame message-frame--fromme">
+                <section class="message__frame__content--fromme message__frame__content--fromme-last">
+                    <p class="message__text">I will be back next week.</p>
+                </section>
+            </section>
+        </section>
+
+        <section class="message-box__space-between-messages">
+
+            <section class="message-box__message message-box__message-tome">
+                <img src="pics/avatar.jpg" class="messanger__frame__avatar">
+                <section class="message-frame message-frame__content--tome message-frame__content--tome-first">
+                    <p class="message__text">Ahh sorry, missed that!</p>
+                </section>
+            </section>
+
+            <section class="message-frame message__frame--tome--last">
+                <section class="message-frame__content--tome message-frame__content--tome-middle">
+                    <p class="message__text">Let's talk next week</p>
+                </section>
+            </section>
+
+            <section class="message-frame message__frame--tome--last">
+                <section class="message-frame__content--tome message-frame__content--tome-middle">
+                    <p class="message__text">Let's talk next week</p>
+                </section>
+            </section>
+
+            <section class="message-frame message__frame--tome--last">
+                <section class="message-frame__content--tome message-frame__content--tome-last">
+                    <p class="message__text">Let's talk next week</p>
+                </section>
+            </section>
+
+
+        </section>
+    </main>
+
+    <footer class="messenger-frame__footer">
+        <form class="message_send" name="message_send" target="#" method="post">
+            <input class="message-to-send" name="message-to-send" type="text" placeholder="Type a message here..."/>
+            <input type="submit"
+                   style="position: absolute; left: -9999px; width: 1px; height: 1px;"
+                   tabindex="-1"/></form>
+        <section class="footer__buttons">
+            <a href="#">
+                <img src="pics/Picture.svg">
+            </a>
+            <a href="#">
+                <img src="pics/Gif.svg">
+            </a>
+            <a href="#">
+                <img src="pics/Smile.svg">
+            </a>
+            <a href="#">
+                <img src="pics/Calendar.svg">
+            </a>
+            <a href="#">
+                <img src="pics/Camera.svg">
+            </a>
+        </section>
+    </footer>
+</div>
+</body>
+</html>
